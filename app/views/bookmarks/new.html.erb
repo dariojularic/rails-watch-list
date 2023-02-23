@@ -1,0 +1,11 @@
+<h1>NEW bookmark </h1>
+<p><%= @bookmark %>
+<%# <p>
+<%= simple_form_for [@list, @bookmark] do |f| %>
+  <%# <%= f.input :comment %> %>
+  <%# <%= f.submit "submit" %> %>
+<%# <% end %> %>
+<%# </p> %> %>
+<%# list id, movie id %>
+
+<%= render "form", { list: @list, bookmark: @bookmark} %>
