@@ -21,10 +21,10 @@ class BookmarksController < ApplicationController
     @bookmark.delete
   end
 
-  def destroy_comment
-    @bookmark = Bookmark.find(params[:id])
-    @bookmark.comment.delete
-  end
+  # def destroy_comment
+  #   @bookmark = Bookmark.find(params[:id])
+  #   @bookmark.comment.delete
+  # end
 
   private
 
